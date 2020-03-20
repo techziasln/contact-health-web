@@ -1,0 +1,37 @@
+@extends('admin.admin_layout.layout')
+
+
+
+@section('admin_content')
+
+
+
+    @include('admin.admin_layout.header')
+    @include('admin.admin_layout.dashboard_options')
+
+
+
+
+    <div class="main-content-wrap sidenav-open d-flex flex-column">
+        <div class="main-content">
+            @include('admin.admin_layout.head_name')
+
+            <div class="separator-breadcrumb border-top"></div>
+
+
+
+        </div>
+
+        @include('admin.admin_layout.footer')
+    </div>
+    <!-- ============ Body content End ============= -->
+    </div>
+    <!--=============== End app-admin-wrap ================-->
+
+
+
+
+
+
+
+@endsection
